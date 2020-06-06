@@ -24,6 +24,11 @@
   color: white;
 }
 
+.talks-body {
+  align-items: left;
+
+}
+
 .App-link {
   color: #61dafb;
 }

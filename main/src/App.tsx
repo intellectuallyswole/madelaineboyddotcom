@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+				<h1> Madelaine Boyd</h1>
+				</header>
+				<h2> Talks</h2>
+<div className="talks-body">
+        <ul>
+					<li> <a href="https://youtu.be/-KrF4bIofeo?t=149">Paper Tech Talks - Building Contextually Aware Tutorials</a></li>
+					<li><a href="https://www.facebook.com/watch/?v=2132426893697070">Holding it in @Scale: The systemd-tails on Containers, Composable Services, and Runtime Fun Times</a></li>
+				</ul>
+</div>
     </div>
   );
 }
