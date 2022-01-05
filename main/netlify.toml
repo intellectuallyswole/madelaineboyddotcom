@@ -3,3 +3,9 @@
 	to = "https://matrix.madelaineboyd.com/.well-known/matrix/:splat"
 	status = 200
 	force = true
+
+[[redirects]]
+		from = "https://madelaineboyd.com/.well-known/matrix/*"
+		to = "https://matrix.madelaineboyd.com/.well-known/matrix/:splat"
+		status = 200
+		force = true
